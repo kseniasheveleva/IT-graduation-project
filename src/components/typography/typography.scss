@@ -1,0 +1,7 @@
+@use '/src/global/mixin/base-font';
+@use '/src/global/colors';
+
+.logo {
+    @include base-font.baseFont(colors.$white, 700);
+    font-size: 30px;
+}

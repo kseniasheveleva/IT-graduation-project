@@ -1,0 +1,11 @@
+@use '/src/global/fonts';
+@use '/src/global/mixin/base-font';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    @include base-font.baseFont();
+    font-size: 18px;
+}
