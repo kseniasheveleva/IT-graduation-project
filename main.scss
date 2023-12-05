@@ -1,5 +1,6 @@
 @use '/src/global/fonts';
 @use '/src/global/mixin/base-font';
+@use '/src/global/colors';
 
 * {
     box-sizing: border-box;
@@ -7,5 +8,6 @@
 
 body {
     @include base-font.baseFont();
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 400;
 }

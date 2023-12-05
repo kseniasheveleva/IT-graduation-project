@@ -1,10 +1,9 @@
 @use '../fonts';
 @use '../colors';
 
-@mixin baseFont($color: colors.$gray900op70, $fontWeight: 400) {
+@mixin baseFont($color: colors.$gray950) {
     color: $color;
     font-family: 'Jost';
     font-style: normal;
-    font-weight: $fontWeight;
     line-height: 160%;
 }

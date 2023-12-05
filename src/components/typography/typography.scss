@@ -1,7 +1,66 @@
-@use '/src/global/mixin/base-font';
 @use '/src/global/colors';
 
-.logo {
-    @include base-font.baseFont(colors.$white, 700);
+
+.title-h1 {
+    font-size: 70px;
+    color: colors.$white;
+    font-weight: 600;
+
+    &-info {
+        color: colors.$red;
+    }
+}
+
+.title-h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.title-h3 {
+    font-size: 36px;
+    color: colors.$white;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.title-h4 {
     font-size: 30px;
+    font-weight: 600;
+
+    &-regular {
+        font-weight: 400;
+    }
+}
+
+.title-h5 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: colors.$gray950-op70;
+
+    &-red {
+        color: colors.$red;
+    }
+}
+
+.info-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: colors.$gray950;
+}
+
+.copyright {
+    font-size: 16px;
+    font-weight: 400;
+    color: colors.$white-op70;
+}
+
+.logo {
+    font-size: 30px;
+    color: colors.$white;
+    font-weight: 700;
 }
