@@ -5,6 +5,7 @@
     font-size: 70px;
     color: colors.$white;
     font-weight: 600;
+    line-height: 160%;
 
     &-info {
         color: colors.$red600;
@@ -40,7 +41,8 @@
 .subtitle {
     font-size: 18px;
     font-weight: 400;
-    color: colors.$gray950_op70;
+    color: colors.$gray950;
+    opacity: 70%;
 
     &-red {
         color: colors.$red600;
@@ -56,5 +58,6 @@
 .copyright {
     font-size: 16px;
     font-weight: 400;
-    color: colors.$white_op70;
+    color: colors.$white;
+    opacity: 70%;
 }
