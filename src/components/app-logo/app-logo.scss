@@ -1,0 +1,8 @@
+@use '../../global/colors';
+
+.app-logo {
+    font-size: 30px;
+    color: colors.$white;
+    font-weight: 700;
+    line-height: 160%;
+}

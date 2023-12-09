@@ -7,7 +7,7 @@
     font-weight: 600;
 
     &-info {
-        color: colors.$red;
+        color: colors.$red600;
     }
 }
 
@@ -40,10 +40,10 @@
 .subtitle {
     font-size: 18px;
     font-weight: 400;
-    color: colors.$gray950-op70;
+    color: colors.$gray950_op70;
 
     &-red {
-        color: colors.$red;
+        color: colors.$red600;
     }
 }
 
@@ -56,11 +56,5 @@
 .copyright {
     font-size: 16px;
     font-weight: 400;
-    color: colors.$white-op70;
-}
-
-.logo {
-    font-size: 30px;
-    color: colors.$white;
-    font-weight: 700;
+    color: colors.$white_op70;
 }

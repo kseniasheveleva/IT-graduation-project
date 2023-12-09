@@ -1,0 +1,30 @@
+@use '/src/global/colors';
+
+.app-header {
+    // max-width: 1920px;
+    // width: 100%;
+    background-color: colors.$gray950;
+
+    &__top-panel {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        grid-column-gap: 40px;
+        // padding-left: 470px;
+        // padding-right: 443px;
+
+        &-item {
+            color: colors.$white;
+        }
+    }
+
+    &__num {
+        color: colors.$white;
+        line-height: 160%;
+    }
+}
