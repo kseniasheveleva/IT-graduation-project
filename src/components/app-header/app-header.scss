@@ -1,7 +1,7 @@
 @use '/src/global/colors';
 
 .app-header {
-    position: fixed;
+    position: absolute;
     z-index: 1;
     width: 100%;
 

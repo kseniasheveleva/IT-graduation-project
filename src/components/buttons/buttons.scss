@@ -10,13 +10,23 @@
     border-radius: 5px;
     line-height: 160%;
     cursor: pointer;
+    transition: all 0.5s;
 
     &-primary {
         background-color: colors.$red600;
+
+        &:hover {
+            background-color: colors.$red700;
+        }
     }
 
     &-secondary {
         background-color: colors.$gray950;
+
+        &:hover {
+            background-color: colors.$gray950;
+            opacity: 70%;
+        }
     }
 }
 
