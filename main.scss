@@ -2,6 +2,12 @@
 @use '/src/global/mixin/base-font';
 @use '/src/global/colors';
 
+@use '/src/global/util-classes/font-weight';
+@use '/src/global/util-classes/offsets';
+@use '/src/global/util-classes/color';
+@use '/src/global/util-classes/position';
+@use '/src/global/util-classes/display';
+
 * {
     box-sizing: border-box;
 }

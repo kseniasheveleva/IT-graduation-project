@@ -1,0 +1,31 @@
+@use '../../global/colors';
+
+.info {
+    display: flex;
+    grid-column-gap: 5px;
+    align-items: flex-start;
+    position: relative;
+
+    &-text {
+        display: none;
+        position: absolute;
+        top: -64px;
+        left: 109px;
+        padding: 15px 20px;
+        border-radius: 5px;
+        background-color: colors.$white;
+        box-shadow: 0 2px 8px colors.$gray950-op01;
+    }
+
+    img {
+
+        &:hover,
+        &:active {
+            background-image: url('/public/icons/info-hover.svg');
+
+            .info-text {
+                display: block;
+            }
+        }
+    }
+}

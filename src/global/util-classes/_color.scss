@@ -1,0 +1,17 @@
+@use '../../global/colors';
+
+.text-white {
+    color: colors.$white;
+}
+
+.text-red {
+    color: colors.$red600;
+}
+
+.text-gray950 {
+    color: colors.$gray950;
+}
+
+.bg-milk {
+    background-color: colors.$milk;
+}
