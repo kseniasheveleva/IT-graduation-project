@@ -9,8 +9,8 @@
     &-text {
         display: none;
         position: absolute;
-        top: -64px;
-        left: 109px;
+        bottom: 118%;
+        left: 30.4%;
         padding: 15px 20px;
         border-radius: 5px;
         background-color: colors.$white;
@@ -19,13 +19,12 @@
 
     img {
 
-        &:hover,
-        &:active {
-            background-image: url('/public/icons/info-hover.svg');
+        &:hover+.info-text {
+            display: block;
+        }
 
-            .info-text {
-                display: block;
-            }
+        &:hover {
+            background-image: url('/public/icons/info-hover.svg');
         }
     }
 }
