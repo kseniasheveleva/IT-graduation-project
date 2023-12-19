@@ -1,4 +1,6 @@
 @use '/src/global/colors';
+@use '/src/global/breakpoints';
+@use 'sass:map';
 
 .app-header {
     position: absolute;
@@ -19,6 +21,8 @@
         &-item {
             color: colors.$white;
         }
+
+
     }
 
     &__num {

@@ -1,0 +1,68 @@
+@use '../../global/colors';
+
+.swiper {
+    &-slide {
+        width: 360px;
+    }
+}
+
+.trainers {
+
+    &__slider {
+        max-width: 1160px;
+        height: 746px;
+        position: relative;
+    }
+
+    &__slide {
+        width: 360px;
+    }
+
+    &__title {
+        margin-top: 12px;
+        margin-bottom: 10px;
+    }
+
+    &__descr {
+        margin-bottom: 18px;
+    }
+
+    &__pagination {
+        width: 360px !important;
+        height: 5px !important;
+        top: 97% !important;
+
+        .swiper-pagination-progressbar-fill {
+            background: colors.$gray950;
+        }
+    }
+
+    &__next-btn {
+        top: 97.8%;
+        width: 40px;
+        height: 40px;
+
+        &::after {
+            content: '' !important;
+            width: 40px;
+            height: 40px;
+            background-image: url('/images/icons/next.svg');
+        }
+    }
+
+    &__prev-btn {
+        left: 91.4%;
+        top: 97.8%;
+        width: 40px;
+        height: 40px;
+
+        &::after {
+            content: '' !important;
+            width: 40px;
+            height: 40px;
+            background-image: url('/images/icons/prev.svg');
+        }
+    }
+
+
+}
