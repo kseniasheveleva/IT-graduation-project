@@ -1,0 +1,16 @@
+@use '../../global/colors';
+
+.price {
+    &__package {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 460px;
+        border: 1px solid colors.$gray950-op02;
+        border-radius: 20px;
+
+        // &-mix {}
+    }
+}
