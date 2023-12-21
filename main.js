@@ -12,4 +12,7 @@ import './src/components/banner/banner';
 import './src/components/info/info';
 import './src/components/trainers/trainers';
 import './src/components/price/price';
+import './src/components/application/application';
+import './src/components/input/input';
+import './src/components/footer/footer';
 

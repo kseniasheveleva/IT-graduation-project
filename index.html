@@ -191,28 +191,34 @@
             </div>
           </div>
           <div class="price__packages">
-            <div class="row">
+            <div class="row row-align-center">
               <div class="col-xs-4">
-                <div class="price__package">
+                <div class="price__package price__package-mix">
                   <h4 class="title-h4">– PRO –</h4>
-                  <h2 class="title-h2">20.000 ₽</h2>
-                  <p class="descr">УМК по робототетхнике <br> и программированию</p>
+                  <div class="price__package-cost">
+                    <h2 class="title-h2">20.000 ₽</h2>
+                    <p class="descr">УМК по робототетхнике <br> и программированию</p>
+                  </div>
                   <button class="btn btn-primary btn-79">Оставить заявку</button>
                 </div>
               </div>
               <div class="col-xs-4">
                 <div class="price__package">
                   <h4 class="title-h4">– ROBO –</h4>
-                  <h2 class="title-h2">15.000 ₽</h2>
-                  <p class="descr">УМК по робототетхнике</p>
+                  <div class="price__package-cost">
+                    <h2 class="title-h2">15.000 ₽</h2>
+                    <p class="descr">УМК по робототетхнике</p>
+                  </div>
                   <button class="btn btn-primary btn-79">Оставить заявку</button>
                 </div>
               </div>
               <div class="col-xs-4">
                 <div class="price__package">
                   <h4 class="title-h4">– PROG –</h4>
-                  <h2 class="title-h2">10.000 ₽</h2>
-                  <p class="descr">УМК по программированию</p>
+                  <div class="price__package-cost">
+                    <h2 class="title-h2">10.000 ₽</h2>
+                    <p class="descr">УМК по программированию</p>
+                  </div>
                   <button class="btn btn-primary btn-79">Оставить заявку</button>
                 </div>
               </div>
@@ -221,10 +227,25 @@
         </div>
       </div>
     </section>
-
-
   </main>
-  <script type="module" src="/main.js"></script>
+
+  <div class="application mt-120">
+    <div class="container">
+      <div class="application__content">
+        <div class="application__title ">
+          <h3 class="title-h3">Запишитесь на курс со скидкой 10%</h3>
+          <p class="text-white lh-130 mt-20">Акция действительна до 10 марта 2022 года</p>
+        </div>
+        <form class="application__form">
+          <input type="text" placeholder="Имя" class="input">
+          <input type="tel" placeholder="Телефон" class="input">
+          <input type="email" placeholder="E-mail" class="input">
+          <button class="btn btn-secondary btn-64">Оформить заявку</button>
+        </form>
+      </div>
+    </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
 </body>
 
 </html>

@@ -10,7 +10,33 @@
         height: 460px;
         border: 1px solid colors.$gray950-op02;
         border-radius: 20px;
+        background-color: colors.$white;
 
-        // &-mix {}
+        .descr {
+            text-align: center;
+            opacity: 1;
+            margin-top: 20px;
+        }
+
+        &-cost {
+            padding-top: 63px;
+            padding-bottom: 61px;
+        }
+
+
+        &-mix {
+            height: 500px;
+            color: colors.$white;
+            background-color: colors.$gray950;
+
+            .price__package-cost {
+                padding-top: 83px;
+                padding-bottom: 52px;
+            }
+
+            .descr {
+                color: colors.$white;
+            }
+        }
     }
 }
