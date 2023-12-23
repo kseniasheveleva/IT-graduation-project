@@ -1,0 +1,19 @@
+.mobile-header {
+    &__actions {
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 10px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .mobile-header__action img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .mobile-header__actions {
+        column-gap: 20px;
+    }
+}

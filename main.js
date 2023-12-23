@@ -16,4 +16,5 @@ import './src/components/price/price';
 import './src/components/application/application';
 import './src/components/input/input';
 import './src/components/footer/footer';
+import './src/components/mobile-header/mobile-header';
 

@@ -10,16 +10,42 @@
 
 <body>
   <header class="app-header">
-    <div class="app-header__top-panel ml-100 mr-100 mt-30">
-      <a href="./index.html" class="app-logo mr-30">ROBO.SCHOOL</a>
-      <nav class="d-xs-none d-xl-block">
-        <ul class="app-header__nav">
-          <li><a href="#" class="app-header__nav-item">О школе</a></li>
-          <li><a href="#" class="app-header__nav-item">Тренеры</a></li>
-          <li><a href="#" class="app-header__nav-item">Стоимость</a></li>
-        </ul>
-      </nav>
-      <a href="#" class="number d-xs-none d-xl-block">+7 800 000 11 22</a>
+    <div class="desktop-header d-xs-none d-xl-block">
+      <div class="app-header__top-panel ml-100 mr-100 mt-30">
+        <a href="./index.html" class="app-logo mr-30">ROBO.SCHOOL</a>
+        <nav class="d-xs-none d-xl-block">
+          <ul class="app-header__nav">
+            <li><a href="#" class="app-header__nav-item">О школе</a></li>
+            <li><a href="#" class="app-header__nav-item">Тренеры</a></li>
+            <li><a href="#" class="app-header__nav-item">Стоимость</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="number d-xs-none d-xl-block">+7 800 000 11 22</a>
+      </div>
+    </div>
+
+    <div class="mobile-header d-xs-block d-xl-none">
+      <div class="app-header__top-panel mt-30">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6">
+              <a href="./index.html" class="app-logo">ROBO.SCHOOL</a>
+            </div>
+            <div class="col-xs-6">
+              <div class="mobile-header__actions">
+                <a href="#" class="mobile-header__action">
+                  <img src="./images/icons/phone.svg" alt="phone">
+                </a>
+                <a href="#" class="mobile-header__action">
+                  <img src="./images/icons/burger-menu.svg" alt="menu">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
     </div>
   </header>
 
@@ -211,9 +237,7 @@
                   </div>
                   <div class="price-card__body">
                     <h2 class="title-h2">15.000 ₽</h2>
-                    <div class="price-card__text-container">
-                      <p class="descr">УМК по робототетхнике</p>
-                    </div>
+                    <p class="descr">УМК по робототетхнике</p>
                     <button class="btn btn-primary btn-79">Оставить заявку</button>
                   </div>
                 </div>
