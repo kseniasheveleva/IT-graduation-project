@@ -1,0 +1,15 @@
+@use '../../global/colors';
+
+.footer {
+    background-color: colors.$gray950;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 100px;
+    }
+
+    &__logo-copy {
+        display: block;
+    }
+}

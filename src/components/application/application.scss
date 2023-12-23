@@ -5,14 +5,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/public/images/appl-bg.svg');
+    background-image: url('/images/percent-bg.svg');
     background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position-y: bottom;
 
     &__content {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
+        padding: 87px 0;
+        column-gap: 125px;
     }
 
     &__form {

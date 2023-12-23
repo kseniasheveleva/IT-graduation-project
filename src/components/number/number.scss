@@ -1,0 +1,8 @@
+@use '../../global/colors';
+
+.number {
+    color: colors.$white50;
+    line-height: 160%;
+    font-size: 30px;
+    font-weight: 600;
+}
