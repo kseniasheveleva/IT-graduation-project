@@ -1,0 +1,18 @@
+@use '../../global/colors';
+@use '../../global/mixin/base-font';
+
+
+.input {
+    @include base-font.baseFont;
+    background-color: colors.$white150;
+    border-radius: 5px;
+    border: none;
+    padding: 19px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+
+    &:focus {
+        border: 1px solid colors.$gray900;
+    }
+}

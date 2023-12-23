@@ -19,14 +19,14 @@
         grid-column-gap: 40px;
 
         &-item {
-            color: colors.$white;
+            color: colors.$white50;
         }
 
 
     }
 
     &__num {
-        color: colors.$white;
+        color: colors.$white50;
         line-height: 160%;
     }
 }

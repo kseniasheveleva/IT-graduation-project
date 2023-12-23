@@ -10,7 +10,7 @@
         height: 460px;
         border: 1px solid colors.$gray950-op02;
         border-radius: 20px;
-        background-color: colors.$white;
+        background-color: colors.$white50;
 
         .descr {
             text-align: center;
@@ -26,7 +26,7 @@
 
         &-mix {
             height: 500px;
-            color: colors.$white;
+            color: colors.$white50;
             background-color: colors.$gray950;
 
             .price__package-cost {
@@ -35,7 +35,7 @@
             }
 
             .descr {
-                color: colors.$white;
+                color: colors.$white50;
             }
         }
     }

@@ -1,7 +1,7 @@
 @use '../../global/colors';
 
 .text-white {
-    color: colors.$white;
+    color: colors.$white50;
 }
 
 .text-red {
@@ -13,5 +13,5 @@
 }
 
 .bg-milk {
-    background-color: colors.$milk;
+    background-color: colors.$white100;
 }

@@ -2,12 +2,22 @@
 
 .application {
     background-color: colors.$red600;
-    height: 460px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('/public/images/appl-bg.svg');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
 
     &__content {
         display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        grid-row-gap: 10px;
     }
 }
