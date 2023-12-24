@@ -1,20 +1,19 @@
 @use '/src/global/colors';
 
 .banner {
-    background-image: url('/images/banner-img.png');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: bottom;
 
     background-color: colors.$gray950;
+
+    &-wrapper {
+        background-image: url('/images/banner-img.png');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
+
+    }
 
     &__content {
         padding-top: 344px;
         padding-bottom: 411px;
-    }
-
-    &__text {
-        margin-top: 20px;
-        margin-bottom: 50px;
     }
 }

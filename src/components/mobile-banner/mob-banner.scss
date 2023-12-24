@@ -1,0 +1,13 @@
+@use '../../global/colors';
+
+.mobile-banner {
+    text-align: center;
+
+    &__content {
+        flex: 1 1;
+    }
+
+    &__header {
+        white-space: nowrap;
+    }
+}

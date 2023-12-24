@@ -1,13 +1,22 @@
 .mobile-header {
+
+
     &__actions {
         display: flex;
         justify-content: flex-end;
         column-gap: 10px;
     }
 
+    &__action {
+        display: flex;
+        align-items: center;
+    }
+
 }
 
+
 @media screen and (min-width: 576px) {
+
     .mobile-header__action img {
         width: 60px;
         height: 60px;

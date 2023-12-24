@@ -51,10 +51,31 @@
     line-height: 160%;
 }
 
+.base-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+
+}
+
 .copyright {
     font-size: 16px;
     font-weight: 400;
     color: colors.$white50;
     opacity: 70%;
     line-height: 160%;
+}
+
+.descr-m {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    color: colors.$gray950;
+    opacity: 70%;
+
+    &--link {
+        font-size: 16px;
+        color: colors.$red600;
+        opacity: 100%;
+    }
 }
