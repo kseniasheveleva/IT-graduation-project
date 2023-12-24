@@ -1,6 +1,9 @@
 @use '../../global/colors';
 
 .mobile-banner {
+    background-image: url('/public/images/bg/mob-banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
     text-align: center;
 
     &__content {
