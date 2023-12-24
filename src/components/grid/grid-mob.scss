@@ -1,43 +1,34 @@
 @use '../../global/breakpoints';
 
-$columnsCount: 12;
+$columnsCount: 4;
 
-.container {
-    max-width: 1200px;
+.container-mobile {
+    max-width: 596px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
-}
-
-.container-fluid {
-    width: 100%;
     padding: 0 10px;
 }
 
-.row {
+.m-row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -20px;
-    margin-right: -20px;
-
-    &-align-center {
-        align-items: center;
-    }
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 @for $i from 1 through $columnsCount {
-    .col-#{$i} {
+    .m-col-#{$i} {
         flex: 0 0 calc($i / $columnsCount * 100%);
-        padding: 0 20px;
+        padding: 0 10px;
     }
 }
 
 @each $key, $value in breakpoints.$breakpoints {
     @media screen and (min-width: $value) {
         @for $i from 1 through $columnsCount {
-            .col-#{$key}-#{$i} {
+            .m-col-#{$key}-#{$i} {
                 flex: 0 0 calc($i / $columnsCount * 100%);
-                padding: 0 20px;
+                padding: 0 10px;
             }
         }
     }
