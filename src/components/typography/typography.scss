@@ -55,7 +55,6 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 160%;
-
 }
 
 .copyright {
@@ -78,4 +77,11 @@
         color: colors.$red600;
         opacity: 100%;
     }
+}
+
+.data-text {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: normal;
+    color: colors.$red600;
 }

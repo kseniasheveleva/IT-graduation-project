@@ -23,6 +23,10 @@ $columnsCount: 12;
     &-align-center {
         align-items: center;
     }
+
+    &-justify-center {
+        justify-content: center;
+    }
 }
 
 @for $i from 1 through $columnsCount {
@@ -41,4 +45,10 @@ $columnsCount: 12;
             }
         }
     }
+}
+
+.col-items-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

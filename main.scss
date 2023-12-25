@@ -8,6 +8,8 @@
 @use '/src/global/util-classes/color';
 @use '/src/global/util-classes/position';
 @use '/src/global/util-classes/display';
+@use '/src/global/util-classes/text-align';
+@use '/src/global/util-classes/gaps';
 
 * {
     box-sizing: border-box;
