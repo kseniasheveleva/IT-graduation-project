@@ -21,22 +21,17 @@
     }
 
     &__slide {
-        width: 360px;
+        width: 220px;
     }
 
-    &__title {
-        margin-top: 12px;
-        margin-bottom: 10px;
-    }
+    // &-card-profile {
+    //     &-mob {
 
-    &__descr {
-        margin-bottom: 18px;
-    }
+    //     }
+    // }
 
     &__pagination {
-        width: 360px !important;
-        height: 5px !important;
-        top: 97% !important;
+        height: 5px;
 
         .swiper-pagination-progressbar-fill {
             background: colors.$gray950;
@@ -44,7 +39,6 @@
     }
 
     &__next-btn {
-        position: absolute;
         top: 97.8%;
         width: 40px;
         height: 40px;
@@ -58,8 +52,7 @@
     }
 
     &__prev-btn {
-        position: absolute;
-        left: 91.4%;
+        left: 90.2%;
         top: 97.8%;
         width: 40px;
         height: 40px;
@@ -73,6 +66,57 @@
             background-image: url('/images/icons/prev.svg');
         }
     }
+
+    @media screen and (min-width: 1200px) {
+        .trainers__next-btn {
+            top: 97.8%;
+        }
+
+        .trainers__prev-btn {
+            left: 91.4%;
+            top: 97.8%;
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        .trainers__pagination {
+            width: 360px !important;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        .trainers__next-btn {
+            display: none;
+        }
+
+        .trainers__prev-btn {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        .swiper-slide {
+            width: 220px;
+        }
+
+        .trainers__pagination {
+            top: 98.5%;
+            height: 5px;
+        }
+
+        .trainers__slider {
+            height: 483px;
+        }
+    }
+
+    @media screen and (min-width: 576px) {
+        .trainers__pagination {
+            top: 97%;
+            height: 5px;
+        }
+    }
+
+
 
 
 }

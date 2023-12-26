@@ -7,8 +7,8 @@ import './trainers.scss';
 
 new Swiper('.trainers__slider', {
     modules: [Navigation, Pagination,],
-    slidesPerView: 3,
-    spaceBetween: 40,
+    spaceBetween: 20,
+    slidesPerView: 'auto',
     pagination: {
         el: '.swiper-pagination',
         type: 'progressbar',
@@ -17,13 +17,9 @@ new Swiper('.trainers__slider', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    // breakpoints: {
-    //     1200: {
-    //         slidesPerView: 3,
-    //     },
-    //     768: {
-    //         slidesPerView: 2,
-    //     }
-
-    // }
+    breakpoints: {
+        576: {
+            spaceBetween: 40,
+        }
+    }
 });
