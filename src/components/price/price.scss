@@ -25,11 +25,20 @@
         margin-bottom: 61px;
     }
 
+    &-mob {
+        height: 394px;
+        padding: 40px 20px;
+    }
+
 
     &-mix {
         height: 500px;
         color: colors.$white50;
         background-color: colors.$gray950;
+
+        &-mob {
+            height: 420px;
+        }
 
         .descr {
             margin-bottom: 52px;
