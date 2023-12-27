@@ -1,0 +1,58 @@
+@use '../../global/colors';
+
+.personal-info {
+    max-width: 940px;
+    height: 768px;
+    z-index: 999;
+    visibility: hidden;
+
+    &--active {
+        visibility: visible;
+    }
+
+
+    &__content {
+        background-color: colors.$white50;
+        border-radius: 20px;
+        padding: 40px;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__profile-img {
+        height: 222px;
+        width: 160px;
+    }
+
+    &__base {
+        display: flex;
+        column-gap: 40px;
+    }
+
+    &__nav {
+        max-width: 678px;
+        display: flex;
+        justify-content: space-between;
+
+        &--active {
+            color: colors.$red600;
+        }
+    }
+
+    &__hr {
+        height: 1px;
+        background-color: colors.$gray950;
+        opacity: 11%;
+    }
+
+    &__text-field {
+        max-height: 354px;
+        overflow: auto;
+    }
+
+
+
+}
