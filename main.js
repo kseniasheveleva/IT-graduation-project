@@ -12,10 +12,12 @@ import './src/components/buttons/buttons';
 import './src/components/banner/banner';
 import './src/components/info/info';
 import './src/components/trainers/trainers';
+import './src/components/personal-info/personal-info';
 import './src/components/price/price';
 import './src/components/application/application';
 import './src/components/input/input';
 import './src/components/footer/footer';
 import './src/components/mobile-header/mobile-header';
 import './src/components/mobile-banner/mob-banner';
+import './src/components/side-nav/side-nav';
 

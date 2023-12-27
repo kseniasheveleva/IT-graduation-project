@@ -11,7 +11,7 @@
 <body>
   <header class="app-header">
     <div class="desktop-header d-xs-none d-xl-block">
-      <div class="app-header__top-panel ml-100 mr-100 mt-30">
+      <div class="app-header__top-panel pl-100 pr-100 mt-30">
         <a href="./index.html" class="app-logo mr-30">ROBO.SCHOOL</a>
         <nav class="d-xs-none d-xl-block">
           <ul class="app-header__nav">
@@ -32,9 +32,24 @@
           <a href="#" class="mobile-header__action">
             <img src="./images/icons/phone.svg" alt="phone">
           </a>
-          <a href="#" class="mobile-header__action">
+          <a href="#" class="mobile-header__action side-nav-trigger">
             <img src="./images/icons/burger-menu.svg" alt="menu">
           </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-nav">
+      <div class="side-nav__menu">
+        <div class="side-nav__close-btn">
+          <a href="#"><img src="/public/images/icons/close-icon.svg" alt="close menu"></a>
+        </div>
+        <div class="side-nav__body">
+          <div class="side-nav__links">
+            <a class="title-h4 text-white">О школе</a>
+            <a class="title-h4 text-white">Тренеры</a>
+            <a class="title-h4 text-white">Стоимость</a>
+          </div>
         </div>
       </div>
     </div>
@@ -598,36 +613,97 @@
           </div>
         </div>
       </div>
+
+      <div class="personal-info">
+        <div class="personal-info__close"></div>
+        <div class="personal-info__base"></div>
+        <div class="personal-info__nav"></div>
+        <div class="personal-info__text-field"></div>
+      </div>
     </section>
 
-    <!-- <section class="application mt-120">
-      <div class="container">
-        <div class="application__content">
-          <div class="application__title mt-19 mr-20">
-            <h3 class="title-h3">Запишитесь на курс <br> со скидкой 10%</h3>
-            <p class="text-white lh-130 mt-20 ">Акция действительна до 10 марта 2022 года</p>
+    <section>
+      <div class="desktop-application d-xs-none d-sm-block mt-120">
+        <div class="application">
+          <div class="container">
+            <div class="application__content pt-87 pb-87">
+              <div class="application__title mt-19 mr-20">
+                <h3 class="title-h3">Запишитесь на курс <br> со скидкой 10%</h3>
+                <p class="text-white lh-130 mt-20 mb-20 ">Акция действительна до 10 марта 2022 года</p>
+              </div>
+              <form class="application__form">
+                <input type="text" placeholder="Имя" class="input">
+                <input type="tel" placeholder="Телефон" class="input">
+                <input type="email" placeholder="E-mail" class="input">
+                <button type="submit" class="btn btn-secondary btn-64">Оформить заявку</button>
+              </form>
+            </div>
           </div>
-          <form class="application__form">
-            <input type="text" placeholder="Имя" class="input">
-            <input type="tel" placeholder="Телефон" class="input">
-            <input type="email" placeholder="E-mail" class="input">
-            <button class="btn btn-secondary btn-64">Оформить заявку</button>
-          </form>
         </div>
       </div>
-    </section> -->
+
+      <div class="mobile-application d-xs-block d-sm-none mt-60">
+        <div class="application">
+          <div class="container-mobile">
+            <div class=" pt-40 pb-40">
+              <div class="m-row">
+                <div class="m-col-xs-4">
+                  <div class="application__title mb-40">
+                    <h4 class="title-h4 text-white lh-140 align-center">Запишитесь на курс <br> со скидкой 10%</h4>
+                    <p class="base-text text-white mt-10 align-center">Акция действительна до 10 марта <br> 2022 года
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="m-row">
+                <div class="m-col-xs-4">
+                  <form class="application__form">
+                    <input type="text" placeholder="Имя" class="input input-mob">
+                    <input type="tel" placeholder="Телефон" class="input input-mob">
+                    <input type="email" placeholder="E-mail" class="input input-mob">
+                    <button type="submit" class="btn btn-secondary btn-60">Оформить заявку</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
 
-  <!-- <footer class="footer">
-    <div class="footer__content ">
-      <div class="footer__logo-copy">
-        <a href="./index.html" class="app-logo">ROBO.SCHOOL</a>
-        <div class="copyright mt-5">© ROBO.SCHOOL</div>
+  <footer class="footer">
+    <div class="desktop-footer d-xs-none d-sm-block">
+      <div class="footer__content ">
+        <div class="footer__logo-copy">
+          <a href="./index.html" class="app-logo">ROBO.SCHOOL</a>
+          <div class="copyright mt-5">© ROBO.SCHOOL</div>
+        </div>
+        <a href="#" class="number title-h4">+7 800 000 11 22</a>
       </div>
-      <a href="#" class="number title-h4">+7 800 000 11 22</a>
     </div>
-  </footer> -->
+
+    <div class="mobile-footer d-xs-block d-sm-none pt-40 pb-20">
+      <div class="container-mobile">
+        <div class="m-row justify-center">
+          <div class="m-col-xs-2 col-items-center">
+            <a href="./index.html" class="app-logo app-logo-mobile">ROBO.SCHOOL</a>
+          </div>
+        </div>
+        <div class="m-row justify-center">
+          <div class="m-col-xs-2 col-items-center">
+            <a href="#" class="text-white semibold base-text mt-20 mb-40">+7 800 000 11 22</a>
+          </div>
+        </div>
+        <div class="m-row justify-center">
+          <div class="m-col-2 col-items-center">
+            <div class="descr-m text-white">© ROBO.SCHOOL</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   <script type="module" src="/main.js"></script>

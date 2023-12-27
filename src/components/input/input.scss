@@ -12,6 +12,10 @@
     font-weight: 400;
     line-height: normal;
 
+    &-mob {
+        padding: 17.4px 20px;
+    }
+
     &:focus {
         border: none;
     }
