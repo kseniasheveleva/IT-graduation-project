@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="/images/icons/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ROBO.SCHOOL</title>
 </head>
@@ -15,16 +15,16 @@
         <a href="./index.html" class="app-logo mr-30">ROBO.SCHOOL</a>
         <nav class="d-xs-none d-xl-block">
           <ul class="app-header__nav">
-            <li><a href="#" class="app-header__nav-item">О школе</a></li>
-            <li><a href="#" class="app-header__nav-item">Тренеры</a></li>
-            <li><a href="#" class="app-header__nav-item">Стоимость</a></li>
+            <li><a href="#about-school" class="app-header__nav-item">О школе</a></li>
+            <li><a href="#trainers" class="app-header__nav-item">Тренеры</a></li>
+            <li><a href="#price" class="app-header__nav-item">Стоимость</a></li>
           </ul>
         </nav>
         <a href="#" class="number d-xs-none d-xl-block">+7 800 000 11 22</a>
       </div>
     </div>
 
-    <div class="mobile-header mt-10 pr-10 pl-10 d-xs-block d-xl-none">
+    <div class="mobile-header pt-10 pr-10 pl-10 pb-10 d-xs-block d-xl-none">
       <div class="app-header__top-panel">
         <a href="./index.html" class="app-logo d-xs-none d-sm-block">ROBO.SCHOOL</a>
         <a href="./index.html" class="app-logo app-logo-mobile d-xs-block d-sm-none">ROBO.SCHOOL</a>
@@ -46,9 +46,9 @@
         </div>
         <div class="side-nav__body">
           <div class="side-nav__links">
-            <a class="title-h4 text-white">О школе</a>
-            <a class="title-h4 text-white">Тренеры</a>
-            <a class="title-h4 text-white">Стоимость</a>
+            <a href="#about-school-mob" class="title-h4 text-white">О школе</a>
+            <a href="#trainers-mob" class="title-h4 text-white">Тренеры</a>
+            <a href="#price-mob" class="title-h4 text-white">Стоимость</a>
           </div>
         </div>
       </div>
@@ -110,7 +110,7 @@
     <section>
       <div class="info-about-school">
         <div class="info-about-school__introduction">
-          <div class="desktop-info-about-school mt-120 d-xs-none d-sm-block">
+          <div class="desktop-info-about-school mt-120 d-xs-none d-sm-block" id="about-school">
             <div class="container">
               <div class="row">
                 <div class="col-xl-9 d-sm-none d-xl-block">
@@ -125,7 +125,7 @@
             </div>
           </div>
 
-          <div class="mobile-info-about-school mt-60 d-xs-block d-sm-none">
+          <div class="mobile-info-about-school mt-60 d-xs-block d-sm-none" id="about-school-mob">
             <div class="container-mobile">
               <div class="m-row">
                 <div class="m-col-4">
@@ -266,7 +266,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-sm-12">
-                      <h2 class="title-h2 align-center mb-60">Что вы получите <br> после курса</h2>
+                      <h2 class="title-h2 mb-60">Что вы получите <br> после курса</h2>
                     </div>
                   </div>
                   <div class="row row-align-center">
@@ -306,7 +306,7 @@
                   <div class="info-about-school__guarantee">
                     <div class="m-row">
                       <div class="m-col-xs-4">
-                        <h4 class="title-h4 lh-140 align-center mb-40">Что вы получите <br> после курса</h2>
+                        <h4 class="title-h4 lh-140 align-center mb-40">Что вы получите <br> после курса</h4>
                       </div>
                     </div>
                     <div class="m-row">
@@ -358,7 +358,7 @@
     </section>
 
     <section>
-      <div class="desktop-slider">
+      <div class="desktop-slider" id="trainers">
         <div class="mt-120 d-xs-none d-sm-block">
           <div class="container">
             <div class="trainers">
@@ -419,7 +419,7 @@
         </div>
       </div>
 
-      <div class="mobile-slider">
+      <div class="mobile-slider" id="trainers-mob">
         <div class="mt-60 d-xs-block d-sm-none">
           <div class="container-mobile">
             <div class="trainers">
@@ -431,7 +431,7 @@
                       <img width="220" src="/images/people-profile/profile-1.jpg" alt="Irina Lime">
                       <h5 class="semibold mt-12">Ирина Лайм</h5>
                       <div class="descr-m mt-10 mb-15">преподаватель по робототехнике</div>
-                      <a href="#" class="base-text text-red">Подробнее</a>
+                      <a href="#" class="base-text text-red profile-mob-trigger">Подробнее</a>
                     </div>
 
                   </div>
@@ -479,111 +479,116 @@
         </div>
       </div>
 
-      <div class="desktop-version d-sm-block d-xs-none">
-        <div class="wrapper">
-          <div class="personal-info mr-20 ml-20">
-            <div class="personal-info__content">
-              <div class="personal-info__top">
-                <div class="personal-info__base">
-                  <img class="personal-info__profile-img" src="./images/people-profile/profile-1.jpg" alt="person-1">
-                  <div class="personal-info__about">
-                    <h5 class="title-h5">Ирина Лайм</h5>
-                    <p class="descr mt-10 mb-10">преподаватель по робототехнике</p>
-                    <div class="personal-info__socials">
-                      <a href="#"><img src="./images/icons/facebook.svg" alt="facebook page"></a>
-                      <a href="#"><img src="./images/icons/instagram.svg" alt="instagram page"></a>
+      <div class="profile-card">
+        <div class="desktop-version d-sm-block d-xs-none">
+          <div class="wrapper">
+            <div class="personal-info mr-20 ml-20">
+              <div class="personal-info__content">
+                <div class="personal-info__top">
+                  <div class="personal-info__base">
+                    <img class="personal-info__profile-img" src="./images/people-profile/profile-1.jpg" alt="person-1">
+                    <div class="personal-info__about">
+                      <h5 class="title-h5">Ирина Лайм</h5>
+                      <p class="descr mt-10 mb-10">преподаватель по робототехнике</p>
+                      <div class="personal-info__socials">
+                        <a href="#"><img src="./images/icons/facebook.svg" alt="facebook page"></a>
+                        <a href="#"><img src="./images/icons/instagram.svg" alt="instagram page"></a>
+                      </div>
                     </div>
                   </div>
+                  <div class="personal-info__close">
+                    <a href="#" class="descr text-gray950 personal-info__close-btn">Закрыть</a>
+                  </div>
                 </div>
-                <div class="personal-info__close">
-                  <a href="#" class="descr text-gray950 personal-info__close-btn">Закрыть</a>
+                <div class="personal-info__nav pt-40 pb-20">
+                  <h6 class="personal-info__nav--active">Образование</h6>
+                  <h6>Опыт работы</h6>
+                  <h6 class="op02">Награды</h6>
+                </div>
+                <div class="mb-20 personal-info__hr"></div>
+                <div class="personal-info__text-field">
+                  <div class="personal-info__text-field-content">
+                    <p class="regular">Сентябрь 1995 — Июнь 2000 <br>
+                      Санкт-Петербургский политехнический университет Петра Великого <br>
+                      Факультет: Компьютерных наук и технологий <br>
+                      Специальность: Математика и компьютерные науки <br>
+                      Форма обучения: Очная</p>
+                    <h5 class="title-h5 mt-40 mb-20">Курсы и тренинги</h5>
+                    <p class="regular">Ноябрь 2020 — Февраль 2021 <br>
+                      Программа дополнительного образования «3D Моделирование»<br>
+                      Санкт-Петербургский политехнический университет Петра Великого <br>
+                      Факультет: Компьютерных наук и технологий <br>
+                      Специальность: Математика и компьютерные науки <br>
+                      Форма обучения: Очная</p>
+                  </div>
                 </div>
               </div>
-              <div class="personal-info__nav pt-40 pb-20">
-                <h6 class="personal-info__nav--active">Образование</h6>
-                <h6>Опыт работы</h6>
-                <h6 class="op02">Награды</h6>
-              </div>
-              <div class="mb-20 personal-info__hr"></div>
-              <div class="personal-info__text-field">
-                <div class="personal-info__text-field-content">
-                  <p class="regular">Сентябрь 1995 — Июнь 2000 <br>
-                    Санкт-Петербургский политехнический университет Петра Великого <br>
-                    Факультет: Компьютерных наук и технологий <br>
-                    Специальность: Математика и компьютерные науки <br>
-                    Форма обучения: Очная</p>
-                  <h5 class="title-h5 mt-40 mb-20">Курсы и тренинги</h5>
-                  <p class="regular">Ноябрь 2020 — Февраль 2021 <br>
-                    Программа дополнительного образования «3D Моделирование»</p>
-                  Санкт-Петербургский политехнический университет Петра Великого <br>
-                  Факультет: Компьютерных наук и технологий <br>
-                  Специальность: Математика и компьютерные науки <br>
-                  Форма обучения: Очная</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="mobile-version d-sm-none d-xs-block">
+          <div class="wrapper">
+            <div class="profile-info-mob mr-10 ml-10">
+              <div class="profile-info-mob__content">
+                <div class="profile-info-mob__top">
+                  <div class="profile-info-mob__basic mb-12">
+                    <img src="./images/people-profile/profile-1.jpg" class="profile-info-mob__profile-img"
+                      alt="person-1">
+                    <div class="profile-info-mob__about">
+                      <h5 class="base-text semibold">Ирина Лайм</h5>
+                      <p class="mt-5 mb-10">преподаватель по робототехнике</p>
+                      <div class="personal-info-mob__socials">
+                        <a href="#"><img width="30" height="30" src="./images/icons/facebook.svg"
+                            alt="facebook page"></a>
+                        <a href="#"><img width="30" height="30" src="./images/icons/instagram.svg"
+                            alt="instagram page"></a>
+                      </div>
+                      <a class="profile-info-mob__close-icon">
+                        <img src="./images/icons/close.svg" alt="close icon">
+                      </a>
+                    </div>
+                  </div>
+                  <select class="select" name="info-about-person">
+                    <option value="aducation" class="select-option">Образование</option>
+                    <option value="experience" class="select-option">Опыт работы</option>
+                    <option value="awards" class="select-option">Награды</option>
+                  </select>
+                </div>
+                <div class="profile-info-mob__text-field mt-20">
+                  <div class="profile-info-mob__text-field-content">
+                    <p class="descr-m text-gray950 op1">Сентябрь 1995 — Июнь 2000 <br>
+                      Санкт-Петербургский политехнический университет Петра Великого <br>
+                      Факультет: Компьютерных наук и технологий <br>
+                      Специальность: Математика и компьютерные науки <br>
+                      Форма обучения: Очная</p>
+
+                    <h5 class="base-text semibold mt-20 mb-10">Курсы и тренинги</h5>
+                    <p class="descr-m text-gray950 op1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Quibusdam,
+                      delectus animi minus tempora officia doloremque? Lorem ipsum dolor sit amet consectetur
+                      adipisicing
+                      elit. Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
         </div>
-
       </div>
 
-      <div class="mobile-version d-sm-none d-xs-block">
-        <div class="wrapper">
-          <div class="profile-info-mob mr-10 ml-10">
-            <div class="profile-info-mob__content">
-              <div class="profile-info-mob__top">
-                <div class="profile-info-mob__basic mb-12">
-                  <img src="./images/people-profile/profile-1.jpg" class="profile-info-mob__profile-img" alt="person-1">
-                  <div class="profile-info-mob__about">
-                    <h5 class="base-text semibold">Ирина Лайм</h5>
-                    <p class="mt-5 mb-10">преподаватель по робототехнике</p>
-                    <div class="personal-info-mob__socials">
-                      <a href="#"><img width="30" height="30" src="./images/icons/facebook.svg" alt="facebook page"></a>
-                      <a href="#"><img width="30" height="30" src="./images/icons/instagram.svg"
-                          alt="instagram page"></a>
-                    </div>
-                    <a class="profile-info-mob__close-icon">
-                      <img src="./public/images/icons/close.svg" alt="close icon">
-                    </a>
-                  </div>
-                </div>
-                <select class="select" name="info-about-person">
-                  <option value="aducation" class="select-option">Образование</option>
-                  <option value="experience" class="select-option">Опыт работы</option>
-                  <option value="awards" class="select-option">Награды</option>
-                </select>
-              </div>
-              <div class="profile-info-mob__text-field mt-20">
-                <div class="profile-info-mob__text-field-content">
-                  <p class="descr-m text-gray950 op1">Сентябрь 1995 — Июнь 2000 <br>
-                    Санкт-Петербургский политехнический университет Петра Великого <br>
-                    Факультет: Компьютерных наук и технологий <br>
-                    Специальность: Математика и компьютерные науки <br>
-                    Форма обучения: Очная</p>
-
-                  <h5 class="base-text semibold mt-20 mb-10">Курсы и тренинги</h5>
-                  <p class="descr-m text-gray950 op1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quibusdam,
-                    delectus animi minus tempora officia doloremque? Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Lorem ipsum dolor sit amet consectetur.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      </div>
     </section>
 
     <section>
-      <div class="desktop-price d-sm-block d-xs-none mt-120">
+      <div class="desktop-price d-sm-block d-xs-none mt-120" id="price">
         <div class="price">
           <div class="container">
             <div class="row">
-              <div class="col-xl-7">
-                <h2 class="title-h2 mb-60">Выберите нужный пакет</h2>
+              <div class="col-xl-7 col-sm-12">
+                <h2 class="title-h2 mb-60 te">Выберите нужный пакет</h2>
               </div>
             </div>
             <div class="price__packages">
@@ -657,7 +662,7 @@
         </div>
       </div>
 
-      <div class="mobile-price d-sm-none d-xs-block mt-58">
+      <div class="mobile-price d-sm-none d-xs-block mt-58" id="price-mob">
         <div class="price">
           <div class="container-mobile">
             <div class="m-row">

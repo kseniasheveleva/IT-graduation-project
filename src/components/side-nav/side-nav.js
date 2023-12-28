@@ -3,6 +3,7 @@ import './side-nav.scss';
 const sideNavTrigger = document.querySelector('.side-nav-trigger');
 const sideNav = document.querySelector('.side-nav');
 const closeBtn = document.querySelector('.side-nav__close-btn');
+const links = document.querySelector('.side-nav__links');
 
 
 const openSideMenu = (evt) => {
@@ -19,3 +20,4 @@ const closeSideMenu = (evt) => {
 
 sideNavTrigger.addEventListener('click', openSideMenu);
 closeBtn.addEventListener('click', closeSideMenu);
+links.addEventListener('click', closeSideMenu);

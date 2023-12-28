@@ -1,12 +1,14 @@
 @use '../../global/colors';
 
 .profile-info-mob {
-    position: fixed;
     height: 489px;
     min-width: 300px;
-    background-color: colors.$white50;
-    border-radius: 10px;
-    visibility: visible;
+    z-index: 999;
+    visibility: hidden;
+
+    &--active {
+        visibility: visible;
+    }
 
     &__profile-img {
         width: 60px;
@@ -47,5 +49,7 @@
     &__content {
         position: relative;
         padding: 33px 20px 28px 20px;
+        background-color: colors.$white50;
+        border-radius: 10px;
     }
 }

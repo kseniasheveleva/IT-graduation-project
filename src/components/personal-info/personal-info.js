@@ -3,8 +3,8 @@ import './personal-info.scss';
 const closeBtn = document.querySelector('.personal-info__close-btn');
 const trigger = document.querySelector('.profile-trigger');
 const profileInfo = document.querySelector('.personal-info');
-const KEY = {
-    enter: 'Enter'
+const KEYBOARD_KEYS = {
+    escape: 'Escape'
 }
 
 const openWindow = (evt) => {
@@ -15,7 +15,7 @@ const openWindow = (evt) => {
 
 
 const closeWindow = (evt) => {
-    if (evt.code === KEY.enter || !evt.code) {
+    if (evt.code === KEYBOARD_KEYS.escape || !evt.code) {
         evt.preventDefault();
         profileInfo.classList.remove('personal-info--active')
     }
@@ -24,4 +24,3 @@ const closeWindow = (evt) => {
 trigger.addEventListener('click', openWindow);
 closeBtn.addEventListener('click', closeWindow);
 window.addEventListener('keydown', closeWindow);
-// window.addEventListener('click', closeWindow);
