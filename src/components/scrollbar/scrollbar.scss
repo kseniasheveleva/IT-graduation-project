@@ -1,0 +1,19 @@
+@use '../../global/colors';
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: colors.$gray950-op008;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: colors.$gray950;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}

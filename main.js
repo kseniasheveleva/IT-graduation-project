@@ -22,4 +22,5 @@ import './src/components/mobile-header/mobile-header';
 import './src/components/mobile-banner/mob-banner';
 import './src/components/side-nav/side-nav';
 import './src/components/select/select';
+import './src/components/scrollbar/scrollbar';
 
