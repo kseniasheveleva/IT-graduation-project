@@ -1,0 +1,29 @@
+@use '../../global/colors';
+
+.select {
+    background-color: colors.$red600;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    color: colors.$white50;
+    border: none;
+    width: 100%;
+    padding: 10px 90px 10px 74px;
+    appearance: none;
+    background-image: url('./images/icons/arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 74px) center;
+
+    &-option {
+        background-color: colors.$white50;
+        color: colors.$gray950;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    &:focus {
+        border: none;
+    }
+}

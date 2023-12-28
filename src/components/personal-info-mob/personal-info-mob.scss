@@ -1,0 +1,51 @@
+@use '../../global/colors';
+
+.profile-info-mob {
+    position: fixed;
+    height: 489px;
+    min-width: 300px;
+    background-color: colors.$white50;
+    border-radius: 10px;
+    visibility: visible;
+
+    &__profile-img {
+        width: 60px;
+        height: 88px;
+    }
+
+    &__basic {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    &__close-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    &__socials {
+        a {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__about {
+        p {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 140%;
+        }
+    }
+
+    &__text-field {
+        height: 254px;
+        overflow: auto;
+    }
+
+    &__content {
+        position: relative;
+        padding: 33px 20px 28px 20px;
+    }
+}
