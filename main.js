@@ -1,6 +1,8 @@
 import 'reset-css';
 import 'swiper/css';
 
+import './configs/firebase';
+
 import './src/components/typography/typography';
 import './main.scss';
 
