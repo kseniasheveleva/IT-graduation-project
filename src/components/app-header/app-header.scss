@@ -19,6 +19,22 @@
 
         &-item {
             color: colors.$white50;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                background-color: colors.$white50;
+                height: 2px;
+                bottom: 0;
+                left: 0;
+                width: 0%;
+                transition: 0.4s ease;
+            }
+
+            &:hover:before {
+                width: 100%;
+            }
         }
     }
 

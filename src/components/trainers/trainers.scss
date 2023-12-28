@@ -24,11 +24,6 @@
         width: 220px;
     }
 
-    // &-card-profile {
-    //     &-mob {
-
-    //     }
-    // }
 
     &__pagination {
         height: 5px;
@@ -64,6 +59,26 @@
             width: 40px;
             height: 40px;
             background-image: url('/images/icons/prev.svg');
+        }
+    }
+
+
+    &__link {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            background-color: colors.$red600;
+            height: 1px;
+            transition: 0.4s ease;
+        }
+
+        &:hover::before {
+            width: 100%;
         }
     }
 

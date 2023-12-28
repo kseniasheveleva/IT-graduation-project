@@ -54,6 +54,26 @@
         overflow: auto;
     }
 
+    &__close-btn {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: colors.$gray950;
+            opacity: 0.7;
+            height: 1px;
+            transition: 0.15s ease;
+            width: 0%;
+        }
+
+        &:hover:before {
+            width: 100%;
+        }
+    }
+
 
 
 }
